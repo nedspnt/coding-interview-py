@@ -2,6 +2,23 @@
 To collect the most common coding interview problems
 
 
+## Counting Elements
+
+### 4.1 FrogRiverOne
+
+```
+# poor performance
+for i in range(len(A)):
+    if set(A[:i+1]) == required_steps:
+        return i
+
+# better performance
+for i in range(len(A)):
+    required_steps.discard(A[i])
+    if required_steps == set():
+        return i
+```
+
 
 ### Trouble Shoots:
 
