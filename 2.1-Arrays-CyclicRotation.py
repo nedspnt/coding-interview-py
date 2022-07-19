@@ -36,6 +36,5 @@ class Test(unittest.TestCase):
     def test_k_more_than_array_len(self):
         self.assertEqual(right_rotation([3,4,5], 10), [5,3,4])
 
-# https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31
 if __name__ == '__main__':
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+    unittest.main()
