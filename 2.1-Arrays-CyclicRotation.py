@@ -1,6 +1,8 @@
 import unittest
 
 def right_rotation(A, K):
+    """ Rotate an array A to the right K times
+    """
     
     len_A = len(A)
     
